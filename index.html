@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mojo</title>
+    <link rel="shortcut icon" href="images/logomini.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" ><img src="images/logomojo.png" class="logo"></a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class= "navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">What's New!</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's Not Just A Beverage<br>It's <span>আসমানে পাখা মেলো !</span></h2>
+                <p>Mojo is a product of Akiz Group. To be the most respected food and beverage Company in Bangladesh 
+                    by commitment to quality. Mojo is very much popular for years in Bangladesh for it's crazy flavour. 
+                    The crazyness of Mojo relays on it's carzy tagline "Asmane Pakha Melo"</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+              <img src="images/m1.png" class="mojo">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/t1.png" onclick="imgSlider('images/m1.png')"></li>
+            <li><img src="images/t2.png" onclick="imgSlider('images/m4.png')"></li>
+            <li><img src="images/t3.png" onclick="imgSlider('images/m3.png')"></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/towhid.komol"><img src="images/facebook.png"></a></li>
+            <li><a href="https://twitter.com/TowhidKomol"><img src="images/twitter.png"></a></li>
+            <li><a href="https://www.linkedin.com/in/tawhid-komol-88a43b1a0/"><img src="images/linkedin.png"></a></li>
+        </ul>
+        <!-- Image slider at bottom -->
+        <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.mojo').src=anything;
+        }
+        function toggleMenu(){
+            var menuToggle=document.querySelector('.toggle');
+            var navigation=document.querySelector('.navigation');
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+        </script>
+        
+    </section>
+</body>
+</html>
+
