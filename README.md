@@ -16,4 +16,4 @@ Mojo Landing Page demo: https://tawhidkomol.github.io/Mojo-LandingPage-CSS-JQuer
 
 ## Project Screenshots
 
-![App Screenshot](https://github.com/TawhidKomol/Xplore-Travel/blob/main/images/UI.jpg?raw=true)
+![App Screenshot](https://github.com/TawhidKomol/Mojo-LandingPage-CSS-JQuery/blob/main/images/mojo.png?raw=true)
